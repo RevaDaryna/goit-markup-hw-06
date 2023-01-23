@@ -139,6 +139,7 @@ li {
   fill: var(--color-secondary);
   align-items: center;
   text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .tel {
@@ -151,6 +152,7 @@ li {
   fill: var(--color-secondary);
   align-items: center;
   text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link {
@@ -160,6 +162,7 @@ li {
   letter-spacing: 0.02em;
   color: var(--color-primary);
   text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .current-link {
@@ -213,7 +216,7 @@ li {
   background-position: center center;
 }
 
-.button {
+.head-button {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   display: flex;
@@ -228,13 +231,14 @@ li {
   border: none;
   border-radius: 4px;
   margin: 0 auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button:hover {
+.head-button:hover {
   background-color: var(--color-bg-button-active);
 }
 
-.button:focus {
+.head-button:focus {
   background-color: var(--color-bg-button-active);
 }
 
@@ -382,6 +386,7 @@ li {
   line-height: 1.71;
   color: var(--color-invert);
   text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-e-mail {
@@ -391,6 +396,7 @@ li {
   line-height: 1.71;
   color: var(--footer-address-color);
   text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-tel {
@@ -400,6 +406,7 @@ li {
   line-height: 1.71;
   color: var(--footer-address-color);
   text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-list {
@@ -444,6 +451,7 @@ li {
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-send-button {
@@ -452,10 +460,12 @@ li {
 
 .sending-button:hover {
   cursor: pointer;
+  background-color: var(--color-bg-button-active);
 }
 
 .sending-button:focus {
   cursor: pointer;
+  background-color: var(--color-bg-button-active);
 }
 
 .footer-field {
@@ -502,6 +512,7 @@ li {
   border: none;
   border-radius: 4px;
   padding: 6px 22px;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filter:hover {
@@ -558,7 +569,7 @@ li {
 
 .card {
   width: 370px;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card:hover {
@@ -627,6 +638,7 @@ li {
   height: 100%;
   fill: var(--icons-color);
   border-radius: 50%;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socials-link:hover {
@@ -657,6 +669,7 @@ li {
   fill: var(--color-invert);
   border-radius: 50%;
   background-color: var(--footer-icon-bg);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socials-link-footer:hover {
@@ -686,6 +699,7 @@ li {
   border: 1px solid var(--icons-color);
   border-radius: 4px;
   padding: 16px 32px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link:hover {
@@ -765,6 +779,7 @@ li {
   margin: 0;
   width: 30px;
   height: 30px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-button:hover {
@@ -795,6 +810,7 @@ li {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   outline: none;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-field-textarea {
@@ -806,6 +822,7 @@ li {
   border-radius: 4px;
   outline: none;
   margin-bottom: 20px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-field-textarea:focus {
@@ -853,6 +870,7 @@ li {
 
 .checkbox-input {
   appearance: none;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .checkbox-icon {
@@ -860,6 +878,7 @@ li {
   border-radius: 2px;
   fill: transparent;
   margin: 3px 7px 00;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .checkbox-input:checked + .checkbox-icon {
@@ -888,6 +907,7 @@ li {
   border-radius: 4px;
   margin: 0 auto;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-button:hover {
